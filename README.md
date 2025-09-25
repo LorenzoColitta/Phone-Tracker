@@ -19,11 +19,7 @@ Welcome to the Phone-Tracker Wiki! This documentation provides an overview of th
 Phone-Tracker is an application designed to monitor and track mobile device locations securely. It provides real-time location updates, user authentication, and a dashboard for managing tracked devices.
 
 ## Features
-- Secure user authentication and management
-- Real-time tracking of mobile devices
-- Location history and reporting
-- Dashboard for managing tracked devices
-- Data privacy and security best practices
+- Tracking the approximate location of the device via GOOGLE open libraries
 
 ## Installation
 
