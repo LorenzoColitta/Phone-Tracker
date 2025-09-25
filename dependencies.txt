@@ -1,0 +1,5 @@
+## From GOOGLE IRELAND (ALPHABET INC.)
+phonenumbers
+requests
+pycryptodome
+python-dotenv
