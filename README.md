@@ -30,7 +30,6 @@ Phone-Tracker is an application designed to monitor and track mobile device loca
    ```
 2. **Install dependencies**
    ```bash
-   # Example for Node.js projects
    pip install -r dependencies.txt
    ```
 3. **Run the application**
