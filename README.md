@@ -35,43 +35,29 @@ Phone-Tracker is an application designed to monitor and track mobile device loca
 2. **Install dependencies**
    ```bash
    # Example for Node.js projects
-   npm install
+   pip install -r dependencies.txt
    ```
-3. **Configure environment**
-   - Edit `.env` file with your database and API credentials
-
-4. **Run the application**
+3. **Run the application**
    ```bash
-   npm start
+   python main.py
    ```
 
 ## Usage
-
-- Register an account and log in.
-- Add a device to track by entering its unique identifier.
+- Add a device to track by entering its phonr number. No account required.
 - View the dashboard for real-time location updates and history.
 
 ## Authentication & User Management
+No Accounts = No UAM
 
-- The application uses secure authentication methods (e.g., JWT or OAuth).
-- User data is stored safely in the backend database.
-- Only authorized users can access device tracking information.
-
-## Tracking Functionality
-
-- Devices periodically send location updates to the server.
-- The backend processes and stores these updates.
-- Users can view device locations on a map and access historical data.
-
+## Mandatory Telemetry
+- The package saves the phone number used in a log using MD5 HASH. This data is not sent to any servers and is encrypted by using encryption keys hosted on Cloudflare Workers in a secure manner.
 
 ## Contributing
 
-Interested in improving Phone-Tracker? Please see the [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md) file for guidelines.
+Interested in improving Phone-Tracker? Make a pull request!
 
 ## License
 
 This project is licensed under the MIT License.
 
 ---
-
-Feel free to expand these sections with specifics from your codebase or project requirements!
